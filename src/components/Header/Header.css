@@ -1,22 +1,22 @@
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-    background-color: #000000;
-    color: #ffffff;
-    height: 80px;
-    padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #000000;
+  color: #ffffff;
+  height: 80px;
+  padding: 0 2rem;
 }
 
 .header a {
-    text-decoration: none;
-    color: #ffffff;
-    padding: .6rem 1.2rem;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0.6rem 1.2rem;
 }
 
 .header a:hover {
-    background-color: aquamarine;
-    color: #000000;
-    border-radius: 8px;
+  background-color: aquamarine;
+  color: #000000;
+  border-radius: 8px;
 }
