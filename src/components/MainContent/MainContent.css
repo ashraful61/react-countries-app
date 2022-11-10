@@ -1,0 +1,16 @@
+.main-content {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.country-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 25px;
+}
+
+.country-info-container {
+    position: sticky;
+    top: 0;
+}

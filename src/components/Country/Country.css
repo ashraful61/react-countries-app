@@ -1,0 +1,53 @@
+.country {
+    height: 390px;
+    width: 260px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.flag-container {
+    text-align: center;
+}
+.country img {
+    height: 150px;
+    width: 250px;
+    margin: 8px 0;
+}
+.country-info {
+    margin: 14px;
+}
+.country-info p {
+    margin-bottom: 0;
+    margin-top: 4px;
+}
+
+ .add-to-list-btn {
+    width: 100%;
+    background: #2d4f63;
+    border: none;
+    /* border-radius: 0px 0px 8px 8px; */
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #ffffff;
+}
+.select-btn {
+    width: 100%;
+    background: #57a592;
+    border: none;
+    /* border-radius: 0px 0px 8px 8px; */
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #ffffff;
+}
+.add-to-list-btn:hover, .select-btn:hover {
+    background-color: orange;
+}
+

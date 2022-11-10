@@ -1,0 +1,14 @@
+.country-list {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #cdcdcd;
+}
+
+.remove-btn {
+    color:#ffffff;
+    background-color: red;
+    padding: .6rem 2rem;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
